@@ -11,7 +11,6 @@ G92 E0 ; zero the extruded length
 G1 E-1 F500 ; Retract a little
 G1 X80 F4000 ; Quickly wipe away from the filament line
 M117 A imprimir doida... ; Set LCD Message
-M430 I1 V1 W1 ; Power Monitor
 
 ===================== End G-Code =====================
 G4 ; Wait
